@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Crimson+Text&family=Prata&display=swap');
+
+body{
+    background-color: #babd8d;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Prata', serif;
+}
+
+header{
+    background-color: #fa9500;
+    width: 300px;
+    position: fixed;
+    top: 50px;
+    left: 25px;
+    color: #7c6a0a;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+}
+
+nav{
+    background-color: #eb6424;
+    width: 300px;
+    position: fixed;
+    top: 200px;
+    left: 25px;
+    color: #ffdac6;
+}
+
+main{
+    background-color: #7c6a0a;
+    margin-left: 600px; 
+    width: 600px;
+    text-align: right;
+    color: #ffdac6;
+    padding: 5px;
+}
+
+p{
+    text-align: center;
+    padding: 15px;
+    font-size: 14pt;
+
+}
+section{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    padding: 25px;
+    border-right: 10px dotted #fa9500;
+    border-left: 10px dotted #fa9500;
+    border-top: 10px dotted #fa9500;
+    border-bottom: 10px dotted #fa9500;
+    font-family: 'Crimson Text', serif;
+}
+
+footer{
+    background-color: #ffdac6;
+    position: fixed;
+    bottom: 50px;
+    left: 25px;
+    color: #fa9500;
+}
