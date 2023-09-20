@@ -9,7 +9,7 @@ body{
 
 header{
     background-color: #f283b6;
-    width: 300px;
+    width: 150px;
     position: fixed;
     top: 50px;
     left: 25px;
@@ -20,7 +20,8 @@ header{
 
 nav{
     background-color: #6e9887;
-    width: 300px;
+    text-align: center;
+    width: 150px;
     position: fixed;
     top: 200px;
     left: 25px;
@@ -29,11 +30,16 @@ nav{
 
 main{
     background-color: #e06c9f;
-    margin-left: 300px; 
+    margin-left: 150px; 
     width: 600px;
     text-align: right;
     color: #ffdac6;
     padding: 5px;
+}
+
+#intro{
+    text-align: center;
+    margin: 5px;
 }
 
 p{
@@ -56,11 +62,14 @@ section{
     font-family: 'Crimson Text', serif;
 }
 
-div{
+#music{
     background-color: #6e9887;
-    margin-left: 1000px;
-    position: fixed;
+    color: #ffdac6;
+    position:absolute;
+    top: 400px;
+    right: 15px;
     padding: 10px;
+    width: 400px;
 }
 
 footer{
@@ -68,5 +77,6 @@ footer{
     position: fixed;
     bottom: 50px;
     left: 25px;
+    width: 150px;
     color: #fa9500;
 }
