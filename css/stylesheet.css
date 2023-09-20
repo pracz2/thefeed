@@ -8,7 +8,7 @@ body{
 }
 
 header{
-    background-color: #fa9500;
+    background-color: #f283b6;
     width: 300px;
     position: fixed;
     top: 50px;
@@ -19,7 +19,7 @@ header{
 }
 
 nav{
-    background-color: #eb6424;
+    background-color: #6e9887;
     width: 300px;
     position: fixed;
     top: 200px;
@@ -28,8 +28,8 @@ nav{
 }
 
 main{
-    background-color: #7c6a0a;
-    margin-left: 600px; 
+    background-color: #e06c9f;
+    margin-left: 400px; 
     width: 600px;
     text-align: right;
     color: #ffdac6;
