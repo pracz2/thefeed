@@ -54,6 +54,12 @@ section{
     border-bottom: 10px dotted #fa9500;
     font-family: 'Crimson Text', serif;
 }
+div{
+    background-color: #6e9887;
+    margin-left: 1000px;
+    position: fixed;
+    padding: 10px;
+}
 
 footer{
     background-color: #ffdac6;
