@@ -8,33 +8,63 @@ body{
 }
 
 header{
-    background-color: #f283b6;
+    background-color: #ffdac6;
     width: 150px;
     position: fixed;
-    top: 50px;
+    top: 25px;
     left: 25px;
-    color: #7c6a0a;
     font-family: 'Abril Fatface', cursive;
     font-weight: bold;
 }
 
+header h1{
+    color: #fa9500;
+}
+
+nav h2{
+    text-decoration: 3px underline #f283b6;
+}
+
+
+nav a{
+    color: #fa9500;
+}
+
 nav{
-    background-color: #6e9887;
+    background-color: #809062;
     text-align: center;
     width: 150px;
     position: fixed;
-    top: 200px;
+    top: 125px;
     left: 25px;
     color: #ffdac6;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 4px;
 }
 
 main{
     background-color: #e06c9f;
-    margin-left: 150px; 
+    margin-left: 160px; 
     width: 600px;
     text-align: right;
-    color: #ffdac6;
+    color: #ffdac6; 
     padding: 5px;
+}
+
+main h1{
+    color: #75835a;
+    text-decoration: underline;
+}
+
+main img{
+    border: 9px solid #f283b6;
+}
+
+main img:hover{
+    border: 12px solid #fa9500;
 }
 
 #intro{
@@ -63,20 +93,56 @@ section{
 }
 
 #music{
-    background-color: #6e9887;
+    background-color: #f283b6;
     color: #ffdac6;
     position:absolute;
     top: 400px;
+    right: 20px;
+    padding: 10px;
+    width: 450px;
+}
+
+#music h2{
+    color: #75835a;
+    text-decoration: underline;
+}
+
+#music img{
+    border: 5px solid #e06c9f;
+}
+
+#music img:hover{
+    border: 10px solid #fa9500;
+}
+
+#drawings{
+    background-color: #f283b6;
+    color: #ffdac6;
+    position: absolute;
+    top: 3000px;
     right: 15px;
     padding: 10px;
-    width: 400px;
+    width: 450px;
+}
+
+#drawings img{
+    border: 5px solid #e06c9f;
+}
+
+#drawings img:hover{
+    border: 10px solid #fa9500;
+}
+
+#drawings h2{
+    color: #75835a;
+    text-decoration: underline;
 }
 
 footer{
     background-color: #ffdac6;
-    position: fixed;
+    position: relative;
+    right: 50px;
     bottom: 50px;
-    left: 25px;
     width: 150px;
     color: #fa9500;
 }
